@@ -1,1 +1,1 @@
-https://github.com/DimAleksandrov/zakrivayuschiy-teg-f-main.git
+https://github.com/DimAleksandrov/zakrivayuschiy-teg-f.git
