@@ -6,9 +6,12 @@
   --title-font-weight: 700;
   --bg-color: #ffffff;
   --accent-color: #000000;
-  --gradient-color: #d3d3d3;
+  --body-pattern: repeating-linear-gradient(90deg, var(--gradient-color), var(--gradient-color) 2px,  transparent 2px, transparent 4px),
+  repeating-linear-gradient(var(--gradient-color), var(--gradient-color) 2px,  transparent 2px, transparent 4px),
+  linear-gradient(var(--gradient-start-color) var(--linear-gradient-start), var(--gradient-end-color));
+  /* --gradient-color: #d3d3d3;
   --gradient-start-color: #e7e7e7;
-  --gradient-end-color: #1a1a1a;
+  --gradient-end-color: #1a1a1a; */
   --shadow-color: #ffffff;
   --linear-gradient-start: 0.01%;
   --mix-blend-color: #ffffff;

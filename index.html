@@ -18,10 +18,8 @@
   </head>
   <body class="page">
     <header class="header">
-      <h1 class="header__title">
-        &lt;/HTML&gt;
-        <span class="header__text">закрывающий тег</span>
-      </h1>
+      <a class="header__logo" href="#">&lt;/HTML&gt;</a>
+      <h1 class="header__title header__text">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -60,16 +58,16 @@
           <p class="card__watermark">&lt;/HTML&gt;</p>
         </div>
         <div class="card__content">
-          <p class="card__paragraph">
-            <span class="card__text">
+          <div class="card__paragraph">
+            <p class="card__text">
               Это было самое начало пути. На этом этапе важно было проникнуться
               основами и настроиться нcа учёбу. И, возможно, подумать, как новые
               знания могут повлиять на ваше будущее.
-            </span>
-            <span class="card__text">
+            </p>
+            <p class="card__text">
               Место для ваших воспоминаний о начале обучения.
-            </span>
-          </p>
+            </p>
+          </div>
           <div class="buttons__container">
             <button type="button" class="button card__icon-button">
               <svg class="like-icon"
@@ -77,6 +75,7 @@
                  height="38px"
                  xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 38 38"
+                 aria-hidden="true"
               >
                  <g class="heart">
                    <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -104,7 +103,7 @@
               </svg>
             </button>
             <button type="button" class="button card__like-button button__animation">
-              <span class="button__text card__button__text button__text__color">Like</span>
+              <span class="button__text card__button__text">Like</span>
             </button>
           </div>
         </div>
@@ -114,24 +113,25 @@
         </h2>
         <div class="card__container">
           <img
-            class="container__image brightness__filter sepia__filter"
+            class="container__image sepia__filter"
             src="./images/2.jpg"
             alt="Шахматная доска с шахматами на полу. Начало партии"
+            loading="lazy"
           >
           <p class="card__watermark">&lt;/HTML&gt;</p>
         </div>
         <div class="card__content">
-          <p class="card__paragraph">
-            <span class="card__text">
+          <div class="card__paragraph">
+            <p class="card__text">
               На первых этапах мы работали со страхами и сомнениями, которые часто испытывают
               новички. Один из них — страх перед чистым листом. Это, конечно же, намного
               сложнее, чем боязнь куска бумаги. Часто за этим ощущением скрываются более
               глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?
-            </span>
-            <span class="card__text">
+            </p>
+            <p class="card__text">
               Место для ваших воспоминаний о начале первого спринта.
-            </span>
-          </p>
+            </p>
+          </div>
           <div class="buttons__container">
             <button type="button" class="button card__icon-button">
               <svg class="like-icon"
@@ -139,6 +139,7 @@
                  height="38px"
                  xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 38 38"
+                 aria-hidden="true"
               >
                  <g class="heart">
                    <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -166,7 +167,7 @@
               </svg>
             </button>
             <button type="button" class="button card__like-button button__animation">
-              <span class="button__text card__button__text button__text__color">Like</span>
+              <span class="button__text card__button__text">Like</span>
             </button>
           </div>
         </div>
@@ -178,20 +179,21 @@
             class="container__image bright__sepia__filter"
             src="./images/3.jpg"
             alt="Аудиокассета черного цвета с запутанной лентой"
+            loading="lazy"
           >
           <p class="card__watermark">&lt;/CSS&gt;</p>
         </div>
         <div class="card__content">
-          <p class="card__paragraph">
-            <span class="card__text">
+          <div class="card__paragraph">
+            <p class="card__text">
               Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро
               померкнуть и смениться ожиданием провала. Или вы, наоборот, могли вдохновиться
               успехами и поверить в себя.
-            </span>
-            <span class="card__text">
+            </p>
+            <p class="card__text">
               Место для ваших воспоминаний об окончании первого спринта.
-            </span>
-          </p>
+            </p>
+          </div>
           <div class="buttons__container">
             <button type="button" class="button card__icon-button">
               <svg class="like-icon"
@@ -199,6 +201,7 @@
                  height="38px"
                  xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 38 38"
+                 aria-hidden="true"
               >
                  <g class="heart">
                    <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -226,7 +229,7 @@
               </svg>
             </button>
             <button type="button" class="button card__like-button button__animation">
-              <span class="button__text card__button__text button__text__color">Like</span>
+              <span class="button__text card__button__text">Like</span>
             </button>
           </div>
         </div>
@@ -239,21 +242,22 @@
             src="./images/4.jpg"
             alt="Белая шахматная фигура, пешка, смотрит на своё отражениие в круглом зеркале,в виде
               шахматной фигуры, Ферзя"
+            loading="lazy"
           >
           <p class="card__watermark">&lt;desigions&gt;</p>
         </div>
         <div class="card__content">
-          <p class="card__paragraph">
-            <span class="card__text">
+          <div class="card__paragraph">
+            <p class="card__text">
               На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять,
               как много ещё впереди. Вы могли попытаться погнаться за идеалом и понять,
               что он недостижим. А, может, вы вовсе и не подвержены перфекционизму и вместо
               того, чтобы сделать идеально, старались просто сделать.
-            </span>
-            <span class="card__text">
+            </p>
+            <p class="card__text">
               Место для ваших воспоминаний о начале второго спринта.
-            </span>
-          </p>
+            </p>
+          </div>
           <div class="buttons__container">
             <button type="button" class="button card__icon-button">
               <svg class="like-icon"
@@ -261,6 +265,7 @@
                  height="38px"
                  xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 38 38"
+                 aria-hidden="true"
               >
                  <g class="heart">
                    <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -288,7 +293,7 @@
               </svg>
             </button>
             <button type="button" class="button card__like-button button__animation">
-              <span class="button__text card__button__text button__text__color">Like</span>
+              <span class="button__text card__button__text">Like</span>
             </button>
           </div>
         </div>
@@ -301,21 +306,22 @@
             src="./images/5.jpg"
             alt="Шахматные фигуры светлых на шахматной доске перед началом партии,
               одна пешка в середине темнее остальных"
+            loading="lazy"
           >
           <p class="card__watermark">care</p>
         </div>
         <div class="card__content">
-          <p class="card__paragraph">
-            <span class="card__text">
+          <div class="card__paragraph">
+            <p class="card__text">
               Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни
               против целого мира). Вас окружали одногруппники, команда сопровождения и просто
               близкие люди, которым можно пожаловаться, если очередной макет просто так не
               поддавался. Осваивать что-то новое легче, когда рядом есть единомышленники, не правда ли?
-            </span>
-            <span class="card__text">
+            </p>
+            <p class="card__text">
               Место для ваших воспоминаний об окончании второго спринта.
-            </span>
-          </p>
+            </p>
+          </div>
           <div class="buttons__container">
             <button type="button" class="button card__icon-button">
               <svg class="like-icon"
@@ -323,6 +329,7 @@
                  height="38px"
                  xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 38 38"
+                 aria-hidden="true"
               >
                  <g class="heart">
                    <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -350,7 +357,7 @@
               </svg>
             </button>
             <button type="button" class="button card__like-button button__animation">
-              <span class="button__text card__button__text button__text__color">Like</span>
+              <span class="button__text card__button__text button">Like</span>
             </button>
           </div>
         </div>
@@ -363,19 +370,20 @@
             src="./images/6.jpg"
             alt="Кошка сероватого оттенка пристально смотрит на шахматные фигуры светлого цвета
               на шахматной доске"
+            loading="lazy"
           >
           <p class="card__watermark">&lt;support&gt;</p>
         </div>
         <div class="card__content">
-          <p class="card__paragraph">
-            <span class="card__text">
+          <div class="card__paragraph">
+            <p class="card__text">
               На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться,
               что решения просто иссякли. Значит, пришло время посмотреть на задачу под другим углом.
-            </span>
-            <span class="card__text">
+            </p>
+            <p class="card__text">
               Место для ваших воспоминаний о начале третьего спринта.
-            </span>
-          </p>
+            </p>
+          </div>
           <div class="buttons__container">
             <button type="button" class="button card__icon-button">
               <svg class="like-icon"
@@ -383,6 +391,7 @@
                  height="38px"
                  xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 38 38"
+                 aria-hidden="true"
               >
                  <g class="heart">
                    <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -410,7 +419,7 @@
               </svg>
             </button>
             <button type="button" class="button card__like-button button__animation">
-              <span class="button__text card__button__text  button__text__color">Like</span>
+              <span class="button__text card__button__text">Like</span>
             </button>
           </div>
         </div>
@@ -422,21 +431,22 @@
             class="container__image opacity__filter"
             src="./images/7.jpg"
             alt="Почти собрвнный кубик-рубик в руках на фоне синеватого оттенка"
+            loading="lazy"
           >
           <p class="card__watermark">&lt;lifes-style: none;&gt;</p>
         </div>
         <div class="card__content">
-          <p class="card__paragraph">
-            <span class="card__text">
+          <div class="card__paragraph">
+            <p class="card__text">
               Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде
               и проектную пора сдавать, и задачи хочется порешать, и в теории получше разобраться,
               и жизнь не забыть пожить. В такие моменты очень нужна концентрация. Вспомните,
               откуда вы её черпали.
-            </span>
-            <span class="card__text">
+            </p>
+            <p class="card__text">
               Место для ваших воспоминаний об окончании третьего спринта.
-            </span>
-          </p>
+            </p>
+          </div>
           <div class="buttons__container">
             <button type="button" class="button card__icon-button">
               <svg class="like-icon"
@@ -444,6 +454,7 @@
                  height="38px"
                  xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 38 38"
+                 aria-hidden="true"
               >
                  <g class="heart">
                    <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -471,7 +482,7 @@
               </svg>
             </button>
             <button type="button" class="button card__like-button button__animation">
-              <span class="button__text card__button__text  button__text__color">Like</span>
+              <span class="button__text card__button__text">Like</span>
             </button>
           </div>
         </div>
@@ -483,22 +494,23 @@
             class="container__image saturate__filter"
             src="./images/8.jpg"
             alt="Взлетная полоса в светлый солнечный летний день."
+            loading="lazy"
           >
           <p class="card__watermark">&lt;experience&gt;</p>
         </div>
         <div class="card__content">
-          <p class="card__paragraph">
-            <span class="card__text">
+          <div class="card__paragraph">
+            <p class="card__text">
               Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых,
               впереди ещё много материала про «красотищу». Во-вторых, с окончанием курса учёба
               не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется. Познать
               его полностью не получится, но это тот случай, когда важен сам процесс познания.
               Ведь часто путь — и есть результат.
-            </span>
-            <span class="card__text">
+            </p>
+            <p class="card__text">
               Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.
-            </span>
-          </p>
+            </p>
+          </div>
           <div class="buttons__container">
             <button type="button" class="button card__icon-button">
               <svg class="like-icon"
@@ -506,6 +518,7 @@
                  height="38px"
                  xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 38 38"
+                 aria-hidden="true"
               >
                  <g class="heart">
                    <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -533,27 +546,26 @@
               </svg>
             </button>
             <button type="button" class="button card__like-button button__animation">
-              <span class="button__text card__button__text  button__text__color">Like</span>
+              <span class="button__text card__button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
-    </main>
-    <footer class="footer">
-      <button
-        type="button"
-        class="button footer__button button__animation"
-        onclick="window['dialog-id'].showModal()"
-        aria-controls="dialog-id"
-      >
-        <svg class="svg__floppy" viewBox="0 0 28 28">
-          <use class="use_svg__floppy" href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="button__text footer__button__text">Сохранить на память</span>
-      </button>
-    </footer>
+      <section class="section">
+        <button
+          type="button"
+          class="button section__button button__animation"
+          onclick="window['dialog-id'].showModal()"
+          aria-controls="dialog-id"
+        >
+          <svg class="svg__floppy" viewBox="0 0 28 28" aria-hidden="true">
+            <use class="use_svg__floppy" href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <span class="button__text section__button__text">Сохранить на память</span>
+        </button>
+      </section>
       <dialog class="dialog" id="dialog-id">
-        <svg class="dialog__svg__floppy" viewBox="0 0 28 28">
+        <svg class="dialog__svg__floppy" viewBox="0 0 28 28" aria-hidden="true">
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <h2 class="dialog__header">Вставьте дискету, чтобы продолжить</h2>
@@ -567,6 +579,7 @@
           </button>
         </form>
       </dialog>
+    </main>
   <script src="./scripts/like.js"></script>
   </body>
 </html>
